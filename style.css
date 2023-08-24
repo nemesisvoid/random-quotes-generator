@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Kaushan+Script&family=Lobster&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  background-color: #495057;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ////////////// */
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 10em auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.link-icon {
+  transition: all 0.4s;
+}
+
+.link-icon:hover {
+  transform: translateY(-3px);
+}
+
+.container {
+  max-width: 100rem;
+  margin: 16em auto;
+  min-height: 50vh;
+}
+
+.main-app {
+  width: 65%;
+  background-color: #272727;
+  margin: 0 auto;
+  padding: 2em 2em 10em 2em;
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: -2px 3px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.quotes {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 4em;
+  max-width: 50ch;
+  text-align: left;
+  padding-left: 2rem;
+  line-height: 1.5;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author {
+  font-size: 1.6rem;
+}
+
+.author-name {
+  font-size: 2.2rem;
+  font-style: italic;
+}
+
+.author-icon {
+  color: #fff;
+}
+
+.btn-submit {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+  background-color: #555;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5em 1.6em;
+  position: absolute;
+  cursor: pointer;
+  top: 90%;
+  left: 35%;
+  transition: all 0.4s;
+}
+
+.btn-submit:hover {
+  background-color: #444;
+  transform: translateY(-3px);
+}
+
+footer {
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 2rem;
+}
+
+.copy-sign {
+  font-size: 1.6rem;
+}
